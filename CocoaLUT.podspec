@@ -2,10 +2,10 @@ Pod::Spec.new do |s|
   s.name         = "CocoaLUT"
   s.version      = begin; File.read('VERSION'); rescue; '9000.0.0'; end
   s.summary      = "LUTs (1D and 3D color lookup tables) for Cocoa applications."
-  s.homepage     = "http://github.com/videovillage/CocoaLUT"
+  s.homepage     = "http://github.com/kailash-chavda-technology-lead/CocoaLUT"
   s.license      = 'MIT'
   s.author       = { "Wil Gieseler" => "wil@wilgieseler.com", "Greg Cotten" => "greg@gregcotten.com"}
-  s.source       = { :git => "https://github.com/videovillage/CocoaLUT.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/kailash-chavda-technology-lead/CocoaLUT.git", :tag => s.version }
 
   s.resource_bundle = {'TransferFunctionLUTs' => 'Assets/TransferFunctionLUTs/*.cube'}
 
